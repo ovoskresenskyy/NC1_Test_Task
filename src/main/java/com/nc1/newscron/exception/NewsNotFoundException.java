@@ -3,7 +3,7 @@ package com.nc1.newscron.exception;
 /**
  * Exception thrown when news is not found by ID.
  */
-public class NewsNotFoundException extends RuntimeException {
+public class NewsNotFoundException extends ResourceNotFoundException {
 
   private static final String MESSAGE_NOT_FOUND = "News with id %d not found.";
 
