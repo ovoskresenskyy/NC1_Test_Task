@@ -1,5 +1,6 @@
 package com.nc1.newscron.dto;
 
+import java.time.LocalDateTime;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -10,4 +11,7 @@ import lombok.Getter;
 @Getter
 public class NewsDto {
 
+  private String headline;
+  private String description;
+  private LocalDateTime publicationTime;
 }
